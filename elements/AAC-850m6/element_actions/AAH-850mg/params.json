@@ -1,0 +1,14 @@
+{
+    "caption": "Skip Ahead",
+    "fields": {
+        "AAJ": {
+            "caption": "time (in seconds)",
+            "default_val": 15,
+            "doc": "The number of seconds you would like to skip forward",
+            "editor": "DynamicValue",
+            "name": "time",
+            "rank": 0,
+            "value": "number"
+        }
+    }
+}

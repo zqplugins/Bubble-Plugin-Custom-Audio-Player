@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "blog",
+        "2": "productivity"
+    },
+    "demo_page": "https://custom-audio-player.bubbleapps.io/",
+    "description": "🔔 For more advanced audio player functionality check out our Advanced Audio Player Plugin plugin: https://zeroqode.com/plugin/advanced-audio-player-plugin-for-bubble--1512891032912x747531016765177900 \n\nA customizable audio player for your Bubble app.\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/custom-audio-player-plugin-for-bubble-1695234485125x562899360934804300\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//s3.amazonaws.com/appforest_uf/f1587326316691x422275603319319760/Untitled%20design%20-%202020-04-19T135807.205.png",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Custom Audio Player",
+    "plugin_instructions": "1. Drag the custom audio player element onto your screen.\n\n2. Define the Mp3 file you want to play and the colors for your audio slider using the property editor. \n\nThe element itself comes with the audio slider only. But you can create your own play, pause, skip, and stop buttons using the custom audio player's element actions in your workflows. \n\nCustom Audio Player's \"Current Time\" will display the current time of your audio file as a string formatted as HH:MM:SS \n\nCustom Audio Player's \"Duration\" will display the length of your audio file as a string formatted as HH:MM:SS"
+}

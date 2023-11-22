@@ -1,0 +1,14 @@
+{
+    "caption": "Skip Back",
+    "fields": {
+        "AAK": {
+            "caption": "time (in seconds)",
+            "default_val": 15,
+            "doc": "The number of seconds you would like to skip backwards",
+            "editor": "DynamicValue",
+            "name": "time",
+            "rank": 0,
+            "value": "number"
+        }
+    }
+}
