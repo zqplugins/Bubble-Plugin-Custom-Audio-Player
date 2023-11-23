@@ -1,0 +1,58 @@
+function(instance, properties, context){
+	function _0x4189() {
+    var _0x562efe = [
+        'value',
+        '34445Bwmbjt',
+        'publishState',
+        '2350DeLqtD',
+        '0:00',
+        'data',
+        'now',
+        '666335AOCtmI',
+        '7KcFrlm',
+        '68787dDiDLm',
+        '36752vBPUPH',
+        '1398708jLZeRa',
+        'pause',
+        'currentTime',
+        '6XotlCD',
+        'stop',
+        'isplaying',
+        '4759408nKdgow',
+        'audioElement',
+        '1726742bWLyRE',
+        'current_time'
+    ];
+    _0x4189 = function () {
+        return _0x562efe;
+    };
+    return _0x4189();
+}
+function _0x396a(_0x3a4b9d, _0x3d5772) {
+    var _0x4189cc = _0x4189();
+    return _0x396a = function (_0x396a5f, _0x3edeea) {
+        _0x396a5f = _0x396a5f - 0xc9;
+        var _0x6973f8 = _0x4189cc[_0x396a5f];
+        return _0x6973f8;
+    }, _0x396a(_0x3a4b9d, _0x3d5772);
+}
+(function (_0x4547a3, _0x2bafd2) {
+    var _0x292465 = _0x396a, _0x55d2e5 = _0x4547a3();
+    while (!![]) {
+        try {
+            var _0x5b29ec = parseInt(_0x292465(0xd6)) / 0x1 + -parseInt(_0x292465(0xd3)) / 0x2 + parseInt(_0x292465(0xce)) / 0x3 * (-parseInt(_0x292465(0xca)) / 0x4) + -parseInt(_0x292465(0xdc)) / 0x5 + parseInt(_0x292465(0xcb)) / 0x6 + -parseInt(_0x292465(0xdd)) / 0x7 * (parseInt(_0x292465(0xd1)) / 0x8) + parseInt(_0x292465(0xc9)) / 0x9 * (parseInt(_0x292465(0xd8)) / 0xa);
+            if (_0x5b29ec === _0x2bafd2)
+                break;
+            else
+                _0x55d2e5['push'](_0x55d2e5['shift']());
+        } catch (_0xe5b27f) {
+            _0x55d2e5['push'](_0x55d2e5['shift']());
+        }
+    }
+}(_0x4189, 0x6ec60));
+function run(_0xb675b2, _0x34e8e6, _0xd79431) {
+    var _0xea9110 = _0x396a;
+    _0xb675b2['publishState'](_0xea9110(0xd0), ![]), _0xb675b2['data'][_0xea9110(0xdb)] = _0xea9110(0xcf), _0xb675b2[_0xea9110(0xda)][_0xea9110(0xd2)][_0xea9110(0xcc)](), _0xb675b2[_0xea9110(0xda)][_0xea9110(0xd2)][_0xea9110(0xcd)] = 0x0, _0xb675b2[_0xea9110(0xd7)](_0xea9110(0xd4), _0xea9110(0xd9)), _0xb675b2[_0xea9110(0xda)]['slider'][_0xea9110(0xd5)] = 0x0;
+}
+	 run(instance, properties, context);
+}

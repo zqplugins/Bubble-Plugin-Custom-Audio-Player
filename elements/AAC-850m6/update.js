@@ -135,9 +135,6 @@ function(instance, properties, context) {
 			tempAudio.src = url;
 		}
 		loadAudioMetadata(audioLink);
-		// audioElement.onloadedmetadata = function () {
-		//
-		// }
 	}
 
 

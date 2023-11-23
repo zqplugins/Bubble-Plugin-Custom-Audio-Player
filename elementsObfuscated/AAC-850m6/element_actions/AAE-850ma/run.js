@@ -1,0 +1,62 @@
+function(instance, properties, context){
+	function _0x1f05(_0x3ff3bc, _0x2186a8) {
+    var _0x2804b9 = _0x2804();
+    return _0x1f05 = function (_0x1f0543, _0x51d632) {
+        _0x1f0543 = _0x1f0543 - 0x9c;
+        var _0x57e125 = _0x2804b9[_0x1f0543];
+        return _0x57e125;
+    }, _0x1f05(_0x3ff3bc, _0x2186a8);
+}
+function _0x2804() {
+    var _0x3d32da = [
+        'value',
+        'play',
+        'now',
+        '2014236BpIDdH',
+        'audioElement',
+        'currentTime',
+        '1430316MKyrEP',
+        '2174925mQImNX',
+        '8zkbzFd',
+        'data',
+        'isplaying',
+        'publishState',
+        '978632nOoxsF',
+        '191320MnRSHS',
+        '63Tjrwge',
+        '172463qjdUyz',
+        '343812ikJHNA'
+    ];
+    _0x2804 = function () {
+        return _0x3d32da;
+    };
+    return _0x2804();
+}
+(function (_0x32f8c2, _0x2e9e9e) {
+    var _0x498ead = _0x1f05, _0x167f51 = _0x32f8c2();
+    while (!![]) {
+        try {
+            var _0x2cef61 = -parseInt(_0x498ead(0xa6)) / 0x1 + -parseInt(_0x498ead(0x9f)) / 0x2 * (parseInt(_0x498ead(0xa7)) / 0x3) + -parseInt(_0x498ead(0xa3)) / 0x4 + parseInt(_0x498ead(0x9e)) / 0x5 + parseInt(_0x498ead(0x9d)) / 0x6 + parseInt(_0x498ead(0xa5)) / 0x7 * (parseInt(_0x498ead(0xa4)) / 0x8) + parseInt(_0x498ead(0xab)) / 0x9;
+            if (_0x2cef61 === _0x2e9e9e)
+                break;
+            else
+                _0x167f51['push'](_0x167f51['shift']());
+        } catch (_0x3c51f4) {
+            _0x167f51['push'](_0x167f51['shift']());
+        }
+    }
+}(_0x2804, 0x39d49));
+function run(_0x45482e, _0x355fe9, _0x5c4520) {
+    var _0xdc33e0 = _0x1f05;
+    _0x45482e[_0xdc33e0(0xa0)][_0xdc33e0(0xaa)] = _0xdc33e0(0xa9), _0x45482e[_0xdc33e0(0xa0)][_0xdc33e0(0xac)]['play'](), _0x45482e[_0xdc33e0(0xa2)](_0xdc33e0(0xa1), !![]);
+    var _0x364916 = setInterval(function () {
+        var _0x592742 = _0xdc33e0;
+        if (_0x45482e[_0x592742(0xa0)][_0x592742(0xaa)] === 'play') {
+            var _0x24e6af = _0x45482e[_0x592742(0xa0)][_0x592742(0xac)][_0x592742(0x9c)];
+            _0x45482e[_0x592742(0xa2)]('current_time', _0x45482e[_0x592742(0xa0)]['getTime'](_0x24e6af)), _0x45482e[_0x592742(0xa0)]['slider'][_0x592742(0xa8)] = _0x24e6af;
+        } else
+            clearInterval(_0x364916);
+    }, 0x3e8);
+}
+	 run(instance, properties, context);
+}

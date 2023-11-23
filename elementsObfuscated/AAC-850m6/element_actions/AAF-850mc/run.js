@@ -1,0 +1,55 @@
+function(instance, properties, context){
+	(function (_0x2464ad, _0x4f3dd5) {
+    var _0x17413a = _0x52f3, _0x514b85 = _0x2464ad();
+    while (!![]) {
+        try {
+            var _0x41467d = -parseInt(_0x17413a(0x1b2)) / 0x1 + -parseInt(_0x17413a(0x1b9)) / 0x2 * (-parseInt(_0x17413a(0x1b7)) / 0x3) + parseInt(_0x17413a(0x1bf)) / 0x4 * (parseInt(_0x17413a(0x1ba)) / 0x5) + -parseInt(_0x17413a(0x1bb)) / 0x6 * (-parseInt(_0x17413a(0x1b4)) / 0x7) + parseInt(_0x17413a(0x1b3)) / 0x8 * (parseInt(_0x17413a(0x1b6)) / 0x9) + -parseInt(_0x17413a(0x1b5)) / 0xa * (parseInt(_0x17413a(0x1bc)) / 0xb) + -parseInt(_0x17413a(0x1c0)) / 0xc;
+            if (_0x41467d === _0x4f3dd5)
+                break;
+            else
+                _0x514b85['push'](_0x514b85['shift']());
+        } catch (_0x1fba56) {
+            _0x514b85['push'](_0x514b85['shift']());
+        }
+    }
+}(_0x8932, 0x6bb20));
+function run(_0x3df27d, _0x5020e7, _0x421d07) {
+    var _0xe2416 = _0x52f3;
+    _0x3df27d[_0xe2416(0x1c1)]('isplaying', ![]), _0x3df27d[_0xe2416(0x1c2)]['now'] = 'pause', _0x3df27d[_0xe2416(0x1c2)][_0xe2416(0x1b1)]['pause'](), _0x3df27d[_0xe2416(0x1c1)](_0xe2416(0x1be), _0x3df27d[_0xe2416(0x1c2)][_0xe2416(0x1b8)](_0x3df27d[_0xe2416(0x1c2)][_0xe2416(0x1b1)][_0xe2416(0x1bd)]));
+}
+function _0x52f3(_0x250f61, _0x1d3b64) {
+    var _0x8932e5 = _0x8932();
+    return _0x52f3 = function (_0x52f357, _0x2a3a90) {
+        _0x52f357 = _0x52f357 - 0x1b1;
+        var _0x2c173a = _0x8932e5[_0x52f357];
+        return _0x2c173a;
+    }, _0x52f3(_0x250f61, _0x1d3b64);
+}
+function _0x8932() {
+    var _0x4bef91 = [
+        'data',
+        'audioElement',
+        '315135SntovC',
+        '936mmiSgm',
+        '3248378kLNFTR',
+        '20NwREgc',
+        '40500VlNLdO',
+        '987921JKTrYE',
+        'getTime',
+        '2TnvdgA',
+        '4255HUEhpE',
+        '6LYyzRP',
+        '66110SGgkPK',
+        'currentTime',
+        'current_time',
+        '76YZRLjj',
+        '6813060wXcDHt',
+        'publishState'
+    ];
+    _0x8932 = function () {
+        return _0x4bef91;
+    };
+    return _0x8932();
+}
+	 run(instance, properties, context);
+}
