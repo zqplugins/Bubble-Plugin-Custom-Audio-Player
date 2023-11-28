@@ -1,5 +1,5 @@
 function(properties, context){
-	function initialization(_0x5db650, _0x32baea) {
+	function initialization(_0x1ed860, _0x1e3c68) {
 }
 	 initialization(properties, context);
 }

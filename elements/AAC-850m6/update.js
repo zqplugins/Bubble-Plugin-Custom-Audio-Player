@@ -12,7 +12,13 @@ function(instance, properties, context) {
 		audioElement.setAttribute("src", audioLink)
 		audioElement.setAttribute("preload", "none")
 		audioElement.currentTime = 0
-		instance.publishState("current_time", "00:00")
+		instance.publishState("current_time", "00:00");
+		// Event listener for the actual audioElement
+		audioElement.addEventListener('loadedmetadata', function() {
+			slider.setAttribute("max", audioElement.duration);
+			instance.data.duration = instance.data.getTime(audioElement.duration);
+			instance.publishState("duration", instance.data.duration);
+		});
 		instance.publishState('audio_ready_state', false);
 		audioElement.addEventListener('canplaythrough', function() {
 			instance.publishState('audio_ready_state', true); // Update the state to true when ready
