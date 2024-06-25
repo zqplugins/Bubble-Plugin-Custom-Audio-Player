@@ -10,7 +10,9 @@ function(instance, properties, context) {
 		audioLink = properties.audio_file
 		instance.data.audioLink = audioLink
 		audioElement.setAttribute("src", audioLink)
-		audioElement.setAttribute("preload", "none")
+		audioElement.setAttribute("preload", "none");
+		instance.data.audioElement.classList.add('ZQAudio')
+		instance.canvas.append(instance.data.audioElement);
 		audioElement.currentTime = 0
 		instance.publishState("current_time", "00:00");
 		// Event listener for the actual audioElement
@@ -22,13 +24,11 @@ function(instance, properties, context) {
 		instance.publishState('audio_ready_state', false);
 		audioElement.addEventListener('canplaythrough', function() {
 			instance.publishState('audio_ready_state', true); // Update the state to true when ready
-			console.log("Audio is ready to play!");
 		});
 		function loadAudioMetadata(url) {
 			let tempAudio = new Audio();
 			tempAudio.addEventListener('loadedmetadata', function() {
 				// Set up the slider with actual duration
-				console.log(tempAudio.duration)
 				instance.data.duration = instance.data.getTime(tempAudio.duration)
 				instance.publishState("duration", instance.data.duration)
 				if (sliderStyle.textContent) {
