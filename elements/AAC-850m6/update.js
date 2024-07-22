@@ -11,6 +11,9 @@ function(instance, properties, context) {
 		instance.data.audioLink = audioLink
 		audioElement.setAttribute("src", audioLink)
 		audioElement.setAttribute("preload", "none");
+		if (properties.title) {
+			audioElement.setAttribute("title", properties.title);
+		}
 		instance.data.audioElement.classList.add('ZQAudio')
 		instance.canvas.append(instance.data.audioElement);
 		audioElement.currentTime = 0
