@@ -1,8 +1,15 @@
 function(instance, properties, context) {
-    const audioElements = document.querySelectorAll('audio');
-    audioElements.forEach(audio => {
-        audio.pause();
-    });
+
+    const {
+        pause_other_instances
+    } = properties;
+
+    if (pause_other_instances) {
+        const audioElements = document.querySelectorAll('audio');
+        audioElements.forEach(audio => {
+            audio.pause();
+        });
+    }
 
     instance.data.now = ("play")
     instance.data.audioElement.play();
